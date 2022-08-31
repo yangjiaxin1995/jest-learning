@@ -51,4 +51,5 @@ it('测试算法输出', () => {
   expect(dfs(tree, '杭州市')).toStrictEqual({ name: '杭州市', code: '0571' });
   expect(bfs(tree, '西宁市')).toStrictEqual({ name: '西宁市', code: '0521' });
   expect(bfs(tree, '杭州市')).toStrictEqual({ name: '杭州市', code: '0571' });
+  expect(bfs(tree, '宁波市')).toStrictEqual({ name: '宁波市' });
 });
